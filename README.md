@@ -44,9 +44,9 @@ A javascript implementation to deploy [JSON Server](https://github.com/typicode/
 
 ###### Adding Environment variables
 6. Under "**Environment Variables**", add the following variables and fill the values from the generated config file in firebase. *See :[ Set Up Firebase in Your Project](#set-up-firebase-in-your-project)*
-    FIREBASE_PROJECT_ID
-    FIREBASE_PRIVATE_KEY
-    FIREBASE_CLIENT_EMAIL
+    - FIREBASE_PROJECT_ID
+    - FIREBASE_PRIVATE_KEY
+    - FIREBASE_CLIENT_EMAIL
 
 7. Leave everything else default and click "**Deploy**".
 8. Save and Wait until deployment is done, and your own JSON server is ready to serve!
