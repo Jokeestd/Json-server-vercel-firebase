@@ -1,0 +1,13 @@
+{
+  "name": "json-server-vercel-firebase",
+  "version": "1.0.0",
+  "description": "Implementation to deploy JSON Server to Vercel, using Firebase as a database",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.2.0",
+    "json-server": "^0.17.4"
+  }
+}
