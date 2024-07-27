@@ -19,6 +19,13 @@ A javascript implementation to deploy [JSON Server](https://github.com/typicode/
 4. In the left-hand menu, click on "**Build**" and then "**Realtime Database**."
 5. Click on "**Create Database**."
 6. Select your preferred location and set the database to "**Start in test mode**" (you can change the rules later).
+**Note:** If you want many people to be able to use your databaseat the same time you could configure auth for every user Or for development only, you can set the rules to true.
+    ```json
+      "rules": {
+        ".read": true,
+        ".write": true
+      }
+    ```
 
 ###### Set Up Firebase in Your Project
 
@@ -37,6 +44,7 @@ A javascript implementation to deploy [JSON Server](https://github.com/typicode/
 
 ###### Setup Vercel
 1. Clone this repository.
+2. Run `pnpm install` on the terminal.
 2. Update or use the default [`db.json`](./db.json) in the repository.
 3. Sign Up or login into [Vercel](https://vercel.com).
 4. From the Vercel dashboard, click "**+ New Project**" then "**Import**" your repository.
